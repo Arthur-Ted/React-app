@@ -1,5 +1,5 @@
 {
-  "name": "auto-clicker-backend",
+  "name": "auto-clicker-app",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
