@@ -11,6 +11,7 @@ const app = express();
 // ✅ Parse JSON and URL-encoded bodies
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(require('./middlewares/globalErrorHandler'));
 
 // ✅ Mount Routes
 app.use('/api/auth', authRoutes);
