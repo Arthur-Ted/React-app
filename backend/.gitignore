@@ -1,12 +1,7 @@
 # environment variables
-.env
+.env/
+
+server.js 
 
 # node modules
 node_modules/
-# build output
-dist/
-
-# logs
-logs/
-# dependency directories
-jspm_packages/
